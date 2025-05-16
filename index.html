@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movliq | Koşu Keyfinizi Ödüllerle Taçlandırın</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="top-logo">
+        <img src="public/images/movliq_logo_transparent_fixed.png" alt="Movliq Logo">
+        
+    </div>
+    
+    <div class="container">
+        <header>
+            <!-- Boş header korundu - stil ve layout tutarlılığı için -->
+        </header>
+ 
+        <main class="hero">
+            <div class="hero-content">
+                <h1>Hareket Et, <span class="highlight">Ödüllerle Dolu</span> Bir Dünyaya Adım At!</h1>
+                <p class="subtitle">Movliq'te ister koş, ister yürü... Her adım seni ödüle yaklaştırır. Beta sürümü için hemen kaydol, sürpriz hediyeleri ilk sen kap!</p>
+                
+                <form action="https://formsubmit.co/movliqapp@gmail.com" method="POST" class="signup-form" id="email-form">
+                    <input type="hidden" name="_subject" value="Movliq Beta Kaydı">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_next" value="http://localhost:8000/thanks.html">
+                    <input type="hidden" name="_template" value="table">
+                    
+                    <input type="email" id="email-input" name="email" placeholder="E-posta adresinizi girin" required>
+                    <button type="submit" class="cta-button" id="submit-btn">Beta'ya Katıl <span class="arrow">→</span></button>
+                </form>
+                
+                <div id="success-message" class="success-message" style="display: none;">
+                    Teşekkürler! Beta için kaydınız alındı. En kısa sürede size ulaşacağız.
+                </div>
+                
+                <p class="privacy">Gizliliğinize önem veriyoruz. <a href="#">KVKK & Gizlilik Politikası</a></p>
+            </div>
+        </main>
+
+        <section class="coming-soon">
+            <div class="runner-animation">
+                <img src="public/images/kosucubeta.png" alt="Koşucu" class="runner">
+            </div>
+            <h2 class="animated-heading">Movliq Çok Yakında Geliyor!</h2>
+            <p class="coming-description">Dünyanın dört bir yanındaki kullanıcıları harekete geçiren, rekabeti ödüle dönüştüren yepyeni bir deneyim seni bekliyor.</p>
+        </section>
+
+        <section class="activity-section">
+            <div class="activity-cards">
+                <div class="activity-card">
+                    <div class="activity-icon">
+                        <img src="public/images/9.png" alt="Koş" class="activity-img">
+                    </div>
+                    <h3>Koş</h3>
+                </div>
+                <div class="activity-card">
+                    <div class="activity-icon">
+                        <img src="public/images/10.png" alt="Yürü" class="activity-img">
+                    </div>
+                    <h3>Yürü</h3>
+                </div>
+                <div class="activity-card">
+                    <div class="activity-icon">
+                        <img src="public/images/6.png" alt="Jog" class="activity-img">
+                    </div>
+                    <h3>Jog</h3>
+                </div>
+            </div>
+            
+           
+        </section>
+
+        <section class="mcoin-section">
+            <div class="coin-animation">
+                <div class="coin coin-1"></div>
+                <div class="coin coin-2"></div>
+                <div class="coin coin-3"></div>
+                <div class="coin coin-4"></div>
+                <div class="coin coin-5"></div>
+                <div class="coin coin-6"></div>
+            </div>
+            
+            <div class="mcoin-container">
+                
+                    <h2 class="mcoin-heading">Canlı yarışlara katıl, mCoin biriktir, gerçek hediyeler kazan.</h2>
+               
+                
+                <div class="mcoin-image">
+                    <div class="phone-glow"></div>
+                    <img src="public/images/giftimage.png" alt="mCoin ve Ödüller" class="mcoin-phone">
+                    <div class="brand-tags">
+                        <div class="brand-tag tag-1">Amazon</div>
+                        <div class="brand-tag tag-2">Zara</div>
+                        <div class="brand-tag tag-3">Boyner</div>
+                        <div class="brand-tag tag-4">Google Play</div>
+                        <div class="brand-tag tag-5">App Store</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="features">
+            <h2 class="section-title">Movliq İle Koşmanın Avantajları</h2>
+            <div class="feature">
+                <div class="feature-icon">
+                    <img src="public/images/11.png" alt="Koşu Ödülü" class="feature-img">
+                </div>
+                <h3>Koşuların ödüle dönüşsün</h3>
+                <p>Her adımın değerli! Movliq ile koştukça mCoin kazanır, dilediğin hediyeleri toplarsın.</p>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">
+                    <img src="public/images/5.png" alt="Gerçek Hediyeler" class="feature-img">
+                </div>
+                <h3>Gerçek hediyeler kazan</h3>
+                <p>Sanal değil, gerçek hediyeler! Biriktirdiğin puanları ünlü markaların hediye kartlarına dönüştür.</p>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">
+                    <img src="public/images/4.png" alt="Performans" class="feature-img">
+                </div>
+                <h3>Performansını takip et</h3>
+                <p>Detaylı istatistikler ve analizlerle koşu performansını takip et, kendini sürekli geliştir.</p>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">
+                    <img src="public/images/movliqkupa.png" alt="Yarışmalar" class="feature-img">
+                </div>
+                <h3>Yarışmalara katıl</h3>
+                <p>Heyecan verici yarışmalar ve meydan okumalarla motivasyonunu artır, ekstra ödüller kazan.</p>
+            </div>
+        </div>
+
+   
+
+        <section class="prize-section">
+            <div class="prize-content">
+                <h2 class="prize-heading">Öncelikli Ödül</h2>
+                <p class="prize-subheading">Sürpriz lansman hediyelerine ilk sen sahip ol</p>
+                
+                <div class="prize-images">
+                    <div class="prize-image left">
+                        <img src="public/images/hazine2.png" alt="Hazine Sandığı" class="treasure-img">
+                    </div>
+                    <div class="prize-image right">
+                        <img src="public/images/kosucukız2.png" alt="Koşucu Karakter" class="runner-character">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+       
+    </div>
+    <footer class="new-footer">
+            <div class="footer-container">
+                <div class="footer-left">
+                    <div class="footer-logo-area">
+                        <img src="public/images/logsiyah.png" alt="Movliq Logo" class="footer-logo-simple">
+                        <span class="footer-logo-text">movliq</span>
+                    </div>
+                    <div class="copyright-text">
+                        Copyright © 2025 Movliq Ltd
+                    </div>
+                </div>
+                <div class="footer-social-icons">
+                    <a href="#"><img src="https://www.svgrepo.com/show/3885/facebook.svg" alt="Facebook"></a>
+                    <a href="#"><img src="https://www.svgrepo.com/show/506668/instagram.svg" alt="Instagram"></a>
+                    <a href="#"><img src="public/images/twitter.png" alt="Twitter"></a>
+                    <a href="#"><img src="https://www.svgrepo.com/show/494209/linkedin.svg" alt="LinkedIn"></a>
+                    <a href="#"><img src="https://www.svgrepo.com/show/333611/tiktok.svg" alt="TikTok"></a>
+                </div>
+            </div>
+        </footer>
+    
+    <div class="particles">
+        <div class="particle"><img src="public/images/mCoin.png" alt="mCoin" class="mcoin-particle"></div>
+        <div class="particle"><img src="public/images/mCoin.png" alt="mCoin" class="mcoin-particle"></div>
+        <div class="particle"><img src="public/images/mCoin.png" alt="mCoin" class="mcoin-particle"></div>
+        <div class="particle"><img src="public/images/mCoin.png" alt="mCoin" class="mcoin-particle"></div>
+        <div class="particle"><img src="public/images/mCoin.png" alt="mCoin" class="mcoin-particle"></div>
+        <div class="particle"><img src="public/images/mCoin.png" alt="mCoin" class="mcoin-particle"></div>
+        <div class="particle"><img src="public/images/mCoin.png" alt="mCoin" class="mcoin-particle"></div>
+        <div class="particle"><img src="public/images/mCoin.png" alt="mCoin" class="mcoin-particle"></div>
+    </div>
+</body>
+</html> 

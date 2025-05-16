@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teşekkürler | Movliq</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+    <style>
+        .thanks-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            min-height: 80vh;
+            padding: 0 20px;
+        }
+        .thanks-icon {
+            font-size: 5rem;
+            margin-bottom: 20px;
+            animation: bounce 2s ease infinite;
+        }
+        .thanks-title {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            color: var(--primary-color);
+        }
+        .thanks-text {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+            max-width: 600px;
+        }
+        .home-button {
+            padding: 12px 30px;
+            border-radius: 50px;
+            border: none;
+            background-color: var(--primary-color);
+            color: var(--button-text);
+            font-weight: 600;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            display: inline-block;
+        }
+        .home-button:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 15px rgba(218, 255, 71, 0.5);
+        }
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+            40% {transform: translateY(-20px);}
+            60% {transform: translateY(-10px);}
+        }
+    </style>
+</head>
+<body>
+    <div class="top-logo">
+        <img src="public/images/movliq_logo_transparent_fixed.png" alt="Movliq Logo">
+    </div>
+    
+    <div class="container">
+        <div class="thanks-container">
+            <div class="thanks-icon">✅</div>
+            <h1 class="thanks-title">Teşekkürler!</h1>
+            <p class="thanks-text">Beta kaydınız başarıyla alındı. Movliq uygulaması yayınlandığında sizinle iletişime geçeceğiz. Desteğiniz için teşekkür ederiz!</p>
+            <a href="index.html" class="home-button">Ana Sayfaya Dön</a>
+        </div>
+    </div>
+    
+    <div class="particles">
+        <div class="particle"><img src="public/images/mCoin.png" alt="mCoin" class="mcoin-particle"></div>
+        <div class="particle"><img src="public/images/mCoin.png" alt="mCoin" class="mcoin-particle"></div>
+        <div class="particle"><img src="public/images/mCoin.png" alt="mCoin" class="mcoin-particle"></div>
+        <div class="particle"><img src="public/images/mCoin.png" alt="mCoin" class="mcoin-particle"></div>
+    </div>
+</body>
+</html> 
