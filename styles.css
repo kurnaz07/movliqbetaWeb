@@ -112,15 +112,19 @@ body::before {
     position: relative;
 }
 
-h1 {
-    font-size: 2.8rem;
-    line-height: 1.18;
+.hero-content h1 {
+    color: #daff47 !important;
+    -webkit-text-fill-color: #daff47 !important;
+    background: none !important;
+    font-size: 4rem !important;
+    text-shadow: 0 0 25px rgba(218, 255, 71, 0.6) !important;
+    font-weight: 800 !important;
+    line-height: 1.1;
     margin-bottom: 18px;
-    font-weight: 800;
 }
 
 .subtitle {
-    font-size: 1.15rem;
+    font-size: 1.35rem;
     margin-bottom: 28px;
     color: #e6e6e6;
     font-weight: 400;
