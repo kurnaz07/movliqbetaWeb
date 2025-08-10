@@ -1300,6 +1300,29 @@ input[type="email"]::placeholder {
     transition: all 0.3s ease;
 }
 
+/* Footer yasal/destek linkleri */
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    margin: 0 24px;
+}
+
+.new-footer .footer-links a,
+.new-footer .footer-links a:visited {
+    display: block;
+    color: #000000 !important;
+    font-weight: 700;
+    text-decoration: none !important;
+    padding: 4px 0;
+    letter-spacing: 0.2px;
+}
+
+.new-footer .footer-links a:hover {
+    opacity: 0.85;
+}
+
 /* Remove or comment out old .simple-footer styles if no longer needed elsewhere */
 /*
 .simple-footer {
@@ -1403,6 +1426,14 @@ input[type="email"]::placeholder {
     .new-footer .footer-social-icons img {
         height: 22px;
         width: 22px;
+    }
+
+    .footer-links {
+        margin-top: 12px;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
     }
 }
 
