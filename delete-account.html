@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kullanım Talimatları | Movliq</title>
+    <title>Hesap Silme (Beta) | Movliq</title>
     <link rel="stylesheet" href="styles.css?v=1.3">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,13 +11,10 @@
     <script src="script.js" defer></script>
     <style>
         .legal-container { max-width: 900px; margin: 140px auto 80px; background: rgba(20,30,20,0.55); border: 1px solid rgba(255,255,255,0.08); border-radius: 24px; padding: 32px; box-shadow: 0 8px 40px rgba(218,255,71,0.10); }
-        .legal-container h1 { font-size: 2.2rem; color: var(--primary-color); margin-bottom: 16px; }
-        .legal-container h2 { font-size: 1.4rem; margin: 28px 0 10px; color: #fff; }
-        .legal-container p, .legal-container li { line-height: 1.7; color: #e9e9e9; }
-        .legal-container ul { padding-left: 18px; }
-        .steps { counter-reset: step; }
-        .steps li { list-style: none; margin: 10px 0; }
-        .steps li::before { counter-increment: step; content: counter(step) ". "; color: var(--primary-color); font-weight: 700; }
+        .legal-container h1 { font-size: 2.2rem; color: var(--primary-color); margin-bottom: 12px; }
+        .legal-container p { line-height: 1.7; color: #e9e9e9; }
+        .cta-mail { display: inline-block; margin-top: 14px; background: var(--primary-color); color: #000; font-weight: 800; padding: 12px 18px; border-radius: 12px; text-decoration: none; }
+        .muted { color: #cfd3c9; font-size: 0.95rem; }
     </style>
 </head>
 <body>
@@ -29,33 +26,12 @@
 
     <main class="container">
         <section class="legal-container">
-            <h1>Kullanım Talimatları</h1>
-            <p>Movliq, hareketi oyunlaştırarak ödüllere dönüştüren bir koşu deneyimi sunar. Başlamak için aşağıdaki adımları takip edin.</p>
-
-            <h2>Başlarken</h2>
-            <ul class="steps">
-                <li>Uygulamayı mağazadan indirin ve bir hesap oluşturun.</li>
-                <li>Cihaz izinlerini (adım sayacı, konum, bildirim) etkinleştirin.</li>
-                <li>Profilinizi tamamlayın ve ilk hedefinizi belirleyin.</li>
-            </ul>
-
-            <h2>Koşu Modları</h2>
-            <ul>
-                <li>Canlı yarış: Belirlenen saatlerde açılan odalarda diğer koşucularla gerçek zamanlı yarışın.</li>
-                <li>Solo: Yapay zekâ ile bireysel parkurda süre ve tempo hedeflerine koşun.</li>
-            </ul>
-
-            <h2>mCoin Kazanma</h2>
-            <ul>
-                <li>Koşu performansınıza göre mCoin kazanırsınız.</li>
-                <li>Etkinlik bonusları ve başarı rozetleri ek ödüller sağlar.</li>
-            </ul>
-
-            <h2>Güvenli ve Adil Kullanım</h2>
-            <ul>
-                <li>Hile tespiti yapan sistemler nedeniyle sahte adım veya konum verisi hesap kapatmaya yol açabilir.</li>
-                <li>Yarışlarda topluluk kurallarına uyun ve saygılı iletişim kurun.</li>
-            </ul>
+            <h1>Hesabımı Sil (Beta)</h1>
+            <p class="muted">Beta sürecinde hesap silme talebinizi e-posta ile alıyoruz.</p>
+            <p>Lütfen hesabınızı silmek için bizimle buradan iletişime geçebilirsiniz:</p>
+            <p>
+                <a class="cta-mail" href="mailto:movliqapp@gmail.com?subject=Hesap%20Silme%20Talebi&body=Kayıtlı%20e-posta%3A%20%0Aİsteğe%20bağlı%20açıklama%3A%20">movliqapp@gmail.com</a>
+            </p>
         </section>
     </main>
 
@@ -74,7 +50,7 @@
                 <a href="support.html">Destek</a>
                 <a href="privacy.html">Gizlilik Politikası (KVKK)</a>
                 <a href="terms.html">Kullanım Koşulları</a>
-                <a href="delete-account.html">Hesabımı Sil (Beta)</a>
+                <a href="delete-account.html" aria-current="page">Hesabımı Sil (Beta)</a>
             </nav>
             <div class="footer-social-icons">
                 <a href="https://www.youtube.com/@movliqapp" target="_blank" rel="noopener"><img src="public/images/youtube.svg" alt="YouTube"></a>
